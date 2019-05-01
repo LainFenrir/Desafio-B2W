@@ -21,7 +21,7 @@ Para executar a api é só rodar o arquivo `run.py`. Ele está setado para o amb
 por uma dessas opções:
 DevelopmentConfig, ProductionConfig,TestingConfig
 
-
+No desenvolvimento foi utilizado uma instancia no mongo db local, as configurações do mongo estão em no modulo de persistencia `persistence` em `mongodb.py`, para facil mudança o resto do codigo referencia essas configurações.
 ### Rodando testes
 Para rodar os testes basta executar o arquivo `base_test.py`, todos os testes estão nele.
 > Ao termino dos testes dois arquivos são deixados na coleção para ter certeza de que os testes foram realmente executados.
